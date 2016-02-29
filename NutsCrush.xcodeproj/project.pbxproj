@@ -12,6 +12,7 @@
 		52383B721C83F68700E95FCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52383B701C83F68700E95FCE /* Main.storyboard */; };
 		52383B741C83F68700E95FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52383B731C83F68700E95FCE /* Assets.xcassets */; };
 		52383B771C83F68700E95FCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52383B751C83F68700E95FCE /* LaunchScreen.storyboard */; };
+		52383B821C83FBAC00E95FCE /* RandomGenerator2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52383B811C83FBAC00E95FCE /* RandomGenerator2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		52383B731C83F68700E95FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52383B761C83F68700E95FCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52383B781C83F68700E95FCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52383B811C83FBAC00E95FCE /* RandomGenerator2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomGenerator2D.swift; path = Random/RandomGenerator2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,8 @@
 		52383B601C83F68700E95FCE = {
 			isa = PBXGroup;
 			children = (
+				52383B801C83FB1700E95FCE /* Random */,
+				52383B7E1C83FAE300E95FCE /* Utility */,
 				52383B6B1C83F68700E95FCE /* NutsCrush */,
 				52383B6A1C83F68700E95FCE /* Products */,
 			);
@@ -62,6 +66,21 @@
 				52383B781C83F68700E95FCE /* Info.plist */,
 			);
 			path = NutsCrush;
+			sourceTree = "<group>";
+		};
+		52383B7E1C83FAE300E95FCE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		52383B801C83FB1700E95FCE /* Random */ = {
+			isa = PBXGroup;
+			children = (
+				52383B811C83FBAC00E95FCE /* RandomGenerator2D.swift */,
+			);
+			name = Random;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +157,7 @@
 			files = (
 				52383B6F1C83F68700E95FCE /* ViewController.swift in Sources */,
 				52383B6D1C83F68700E95FCE /* AppDelegate.swift in Sources */,
+				52383B821C83FBAC00E95FCE /* RandomGenerator2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
